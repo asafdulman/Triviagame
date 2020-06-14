@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Explore The World</title>
+</head>
+
+<body>
+  <div id="modal">
+
+  </div>
+  <div class="game-heading">
+    <div class="timer">
+      <p></p>
+    </div>
+
+    <h1>Explore The World<h1>
+  </div>
+
+  <div class="game-section">
+    <div class="question-button-div">
+      <button id="first-question-btn" onclick="startGame()" type="button" name="button">Start Game</button><br>
+      <h3 id=question-out-of-total></h3>
+
+
+    </div>
+
+    <div class="question">
+      <table class="answers-table">
+        <tr>
+          <td><button class="answers-btn" id="boxa" onclick="checkAnswer(event, this)" type="button" name="button">answer-a</button></td>
+          <td><button class="answers-btn" id="boxb" onclick="checkAnswer(event, this)" type="button" name="button">answer-b</button></td>
+        </tr>
+        <tr>
+          <td><button class="answers-btn" id="boxc" onclick="checkAnswer(event, this)" type="button" name="button">answer-c</button></td>
+          <td><button class="answers-btn" id="boxd" onclick="checkAnswer(event, this)" type="button" name="button">answer-d</button></td>
+        </tr>
+
+      </table>
+
+
+    </div>
+    <div class="container-img">
+
+
+      <div class="column">
+
+        <img class="map7" src="images/map7.jpeg" alt="map7">
+        <img class="map4" src="images/map4.jpeg" alt="map4">
+        <img class="map1" src="images/map1.jpeg" alt="map1">
+
+      </div>
+
+      <div class="column">
+        <img class="map8" src="images/map8.jpeg" alt="map8">
+        <img class="map5" src="images/map5.jpeg" alt="map5">
+        <img class="map2" src="images/map2.jpeg" alt="map2">
+
+
+      </div>
+
+      <div class="column">
+        <img class="map9" src="images/map9.jpeg" alt="map9">
+        <img class="map6" src="images/map6.jpeg" alt="map6">
+        <img class="map3" src="images/map3.jpeg" alt="map3">
+      </div>
+
+    </div>
+    <div class="score">
+
+    </div>
+  </div>
+  <div class="footer">
+    <p>Reserved Rights</p>
+
+  </div>
+  <script src="game.js" charset="utf-8"></script>
+</body>
+
+</html>
